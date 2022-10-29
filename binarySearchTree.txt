@@ -1,0 +1,67 @@
+    [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+    root: 7
+                7               -> 5 roottan küçük olduğu için soluna yazılır
+               /
+              5                 
+            
+                7
+               /
+              5                 -> 1, 7 den küçük olduğu için 7'nin soluna yazılır
+             /                  -> 1, 5 ten küçük olduğu için 5'in soluna yazılır
+            1
+
+                7
+               / \
+              5   8             -> 8, 7 den büyük olduğu için 7'nin sağına yazılır
+             /                  
+            1
+
+                7
+               / \
+              5   8             -> 3, 7 den küçük olduğu için 7'nin soluna yazılır
+             /                  -> 3, 5 ten küçük olduğu için 5'in soluna yazılır 
+            1                   -> 3, 1 den büyük olduğu için 1'in sağına yazılır 
+             \
+              3
+              
+                7
+               / \
+              5   8             -> 6, 7 den küçük olduğu için 7'nin soluna yazılır
+             / \                -> 6, 5 ten büyük olduğu için 5'in sağına yazılır 
+            1   6                
+             \
+              3
+
+                7
+               / \
+              5   8             -> 0, 7 den küçük olduğu için 7'nin soluna yazılır
+             / \                -> 0, 5 ten küçük olduğu için 5'in soluna yazılır 
+            1   6               -> 0, 1 den küçük olduğu için 1'in soluna yazılır 
+           / \
+          0   3
+
+                7
+               / \
+              5   8             -> 9, 7 den büyük olduğu için 7'nin sağına yazılır
+             / \   \            -> 9, 8 den büyük olduğu için 8'in sağına yazılır 
+            1   6   9           
+           / \
+          0   3
+         
+                7
+               / \
+              5   8             -> 4, 7 den küçük olduğu için 7'nin soluna yazılır
+             / \   \            -> 4, 5 ten küçük olduğu için 5'in soluna yazılır 
+            1   6   9           -> 4, 1 den büyük olduğu için 1'in sağına yazılır
+           / \                  -> 4, 3 ten büyük olduğu için 3'ün sağına yazılır
+          0   3                 
+         
+                7
+               / \
+              5   8             -> 2, 7 den küçük olduğu için 7'nin soluna yazılır
+             / \   \            -> 2, 5 ten küçük olduğu için 5'in soluna yazılır 
+            1   6   9           -> 2, 1 den büyük olduğu için 1'in sağına yazılır
+           / \                  -> 2, 3 ten küçük olduğu için 3'ün soluna yazılır
+          0   3                 
+             /
+            2

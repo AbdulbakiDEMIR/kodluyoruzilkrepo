@@ -1,0 +1,40 @@
+*{margin:0;padding: 0;}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
+.GOOGLE span{
+    font-size: 70px;
+    font-family: verdana;
+    font-weight: 800;
+    letter-spacing: -5px;
+}
+p{
+    margin:10px;
+}
+input.search{
+    width: 30%;
+    height: 20px;
+    margin:20px
+}
+.yesil-alan{
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:row;
+}
+.kutu{
+    width: 33%;
+    height: 120px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
